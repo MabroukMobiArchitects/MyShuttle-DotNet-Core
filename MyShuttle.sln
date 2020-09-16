@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShuttle.Model", "MyShuttle.Model\MyShuttle.Model.csproj", "{B06DE444-B1B6-4185-AC46-94F332F91A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShuttle.Model", "MyShuttle.Model\MyShuttle.Model.csproj", "{B06DE444-B1B6-4185-AC46-94F332F91A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShuttle.Data", "MyShuttle.Data\MyShuttle.Data.csproj", "{65BA4EE1-2374-447B-B80E-66E6A9CAFB6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShuttle.Data", "MyShuttle.Data\MyShuttle.Data.csproj", "{65BA4EE1-2374-447B-B80E-66E6A9CAFB6C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88626520-643E-467D-88EB-362033CE8276}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{123F6F8E-F47F-4B52-A31A-B57A65F66544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShuttle.IntegrationTests", "MyShuttle.IntegrationTests\MyShuttle.IntegrationTests.csproj", "{CE146362-99F9-4904-B407-8013684AC988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShuttle.IntegrationTests", "MyShuttle.IntegrationTests\MyShuttle.IntegrationTests.csproj", "{CE146362-99F9-4904-B407-8013684AC988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyShuttle.Web", "MyShuttle.Web\MyShuttle.Web.csproj", "{44BC0641-C55B-4275-A20C-06FD9ABAE238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyShuttle.Web", "MyShuttle.Web\MyShuttle.Web.csproj", "{44BC0641-C55B-4275-A20C-06FD9ABAE238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewsLab", "ViewsLab\ViewsLab.csproj", "{D417F682-E248-4E2D-AA3C-876CF0027BC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{44BC0641-C55B-4275-A20C-06FD9ABAE238}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44BC0641-C55B-4275-A20C-06FD9ABAE238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44BC0641-C55B-4275-A20C-06FD9ABAE238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D417F682-E248-4E2D-AA3C-876CF0027BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D417F682-E248-4E2D-AA3C-876CF0027BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D417F682-E248-4E2D-AA3C-876CF0027BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D417F682-E248-4E2D-AA3C-876CF0027BC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,6 +42,7 @@ namespace MyShuttle
         public void Configure(IApplicationBuilder app)
         {
             app.ConfigureRoutes();
+            app.UseStaticFiles();
         }
 
     }
